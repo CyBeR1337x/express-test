@@ -3,7 +3,7 @@ import cors from "cors";
 
 const app = express();
 
-const PORT = process.env.PORT || 5010;
+const PORT = process.env.PORT;
 
 app.use(cors());
 
